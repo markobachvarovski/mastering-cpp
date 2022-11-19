@@ -1,7 +1,17 @@
 # ninja log v5
-1	2360	6902276180117163	CMakeFiles/Personal.dir/main.cpp.obj	da7038e2e8a4d097
-2368	2899	6902276185388371	Personal.exe	40b5775a2ba38e97
-8	1466	6902276423171214	CMakeFiles/Personal.dir/main.cpp.obj	da7038e2e8a4d097
-1467	1632	6902276424791300	Personal.exe	40b5775a2ba38e97
-7	1855	6902276692285371	CMakeFiles/Personal.dir/main.cpp.obj	da7038e2e8a4d097
-1856	2064	6902276694304871	Personal.exe	40b5775a2ba38e97
+6	950	6905232850797977	CMakeFiles/Personal.dir/main.cpp.obj	da7038e2e8a4d097
+5	1750	6905220624800818	CMakeFiles/Personal.dir/variables/variableFunctions.cpp.obj	6685f3cdb27046fb
+950	1109	6905232852362200	Personal.exe	c06f5f713462fd0b
+10	945	6905232850730870	CMakeFiles/Personal.dir/C++_Course/Section1/Exercises.cpp.obj	d612ebdc7cd9b32
+10	1199	6905225814551849	CMakeFiles/Personal.dir/C++_Course/Section1/Exercise1.cpp.obj	ca8b6760996936f6
+5	434	6905236057703531	build.ninja	303a6dc24036b478
+4	951	6905236608763948	CMakeFiles/Personal.dir/C++_Course/Section1/Exercises.cpp.obj	d612ebdc7cd9b32
+12	953	6905236608773953	CMakeFiles/Personal.dir/C++_Course/Section2/Exercises.cpp.obj	5daa48c4fa03006e
+7	982	6905236609094929	CMakeFiles/Personal.dir/main.cpp.obj	da7038e2e8a4d097
+982	1191	6905236611163208	Personal.exe	199e05d8d182c74d
+9	795	6905239032616004	CMakeFiles/Personal.dir/C++_Course/Section2/Exercises.cpp.obj	5daa48c4fa03006e
+5	911	6905239033807389	CMakeFiles/Personal.dir/main.cpp.obj	da7038e2e8a4d097
+912	1046	6905239035103420	Personal.exe	199e05d8d182c74d
+9	757	6905246227602026	CMakeFiles/Personal.dir/C++_Course/Section2/Exercises.cpp.obj	5daa48c4fa03006e
+5	824	6905246228255223	CMakeFiles/Personal.dir/main.cpp.obj	da7038e2e8a4d097
+824	1007	6905246230065938	Personal.exe	199e05d8d182c74d
