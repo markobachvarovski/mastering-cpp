@@ -7,9 +7,11 @@
 #include "./C++ Course/Section3/Exercises.cpp"
 #include "./C++ Course/Section4/Section4.h"
 #include "./C++ Course/Section4/Exercises.cpp"
+#include "./C++ Course/Section5/Section5.h"
+#include "./C++ Course/Section5/Exercises.cpp"
 using namespace std;
 
 int main() {
-    sec4ex3(16, true, true, false);
+    sec5challenge();
     return 0;
 }
