@@ -10,6 +10,6 @@
 using namespace std;
 
 int main() {
-    sec4challenge(157);
+    sec4ex3(16, true, true, false);
     return 0;
 }
