@@ -3,9 +3,13 @@
 #include "./C++ Course/Section1/Exercises.cpp"
 #include "./C++ Course/Section2/Section2.h"
 #include "./C++ Course/Section2/Exercises.cpp"
+#include "./C++ Course/Section3/Section3.h"
+#include "./C++ Course/Section3/Exercises.cpp"
+#include "./C++ Course/Section4/Section4.h"
+#include "./C++ Course/Section4/Exercises.cpp"
 using namespace std;
 
 int main() {
-    sec2ex1();
+    sec4challenge(157);
     return 0;
 }
