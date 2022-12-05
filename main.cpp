@@ -9,9 +9,11 @@
 #include "./C++ Course/Section4/Exercises.cpp"
 #include "./C++ Course/Section5/Section5.h"
 #include "./C++ Course/Section5/Exercises.cpp"
+#include "./C++ Course/Section6/Section6.h"
+#include "./C++ Course/Section6/Exercises.cpp"
 using namespace std;
 
 int main() {
-    sec5challenge();
+    sec6challenge();
     return 0;
 }

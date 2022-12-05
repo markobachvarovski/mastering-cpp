@@ -26,5 +26,7 @@ static int sec1ex3() {
     std::cin >> year;
 
     std::cout << "Your birthday is " << day << "." << month << "." << year << std::endl;
+
+    return 0;
 }
 

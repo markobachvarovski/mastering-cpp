@@ -97,6 +97,12 @@ build CMakeFiles/Personal.dir/C++_Course/Section5/Exercises.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\Personal.dir
   OBJECT_FILE_DIR = CMakeFiles\Personal.dir\C++_Course\Section5
 
+build CMakeFiles/Personal.dir/C++_Course/Section6/Exercises.cpp.obj: CXX_COMPILER__Personal_Debug C$:/Users/marko/CLionProjects/Personal/C++$ Course/Section6/Exercises.cpp || cmake_object_order_depends_target_Personal
+  DEP_FILE = CMakeFiles\Personal.dir\C++_Course\Section6\Exercises.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Personal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Personal.dir\C++_Course\Section6
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Personal
@@ -105,7 +111,7 @@ build CMakeFiles/Personal.dir/C++_Course/Section5/Exercises.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable Personal.exe
 
-build Personal.exe: CXX_EXECUTABLE_LINKER__Personal_Debug CMakeFiles/Personal.dir/main.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section1/Exercises.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section2/Exercises.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section3/Exercises.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section4/Exercises.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section5/Exercises.cpp.obj
+build Personal.exe: CXX_EXECUTABLE_LINKER__Personal_Debug CMakeFiles/Personal.dir/main.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section1/Exercises.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section2/Exercises.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section3/Exercises.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section4/Exercises.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section5/Exercises.cpp.obj CMakeFiles/Personal.dir/C++_Course/Section6/Exercises.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Personal.dir
