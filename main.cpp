@@ -11,9 +11,11 @@
 #include "./C++ Course/Section5/Exercises.cpp"
 #include "./C++ Course/Section6/Section6.h"
 #include "./C++ Course/Section6/Exercises.cpp"
+#include "./C++ Course/Assignments/Assignment1.h"
+#include "./C++ Course/Assignments/Assignment1.cpp"
 using namespace std;
 
 int main() {
-    sec6challenge();
+    makePyramid("123456789");
     return 0;
 }
