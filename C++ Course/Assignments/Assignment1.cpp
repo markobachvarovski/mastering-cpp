@@ -37,7 +37,5 @@ static int makePyramid(string str){
         curr_letter_index++;
     }
 
-
-
     return 0;
 }
