@@ -91,7 +91,11 @@ static int sec7ex6clear(string &guest1, string &guest2, string &guest3){
     return 0;
 }
 
-static int sec7challenge() {
+//Recursively doubles a penny for n days
+static float sec7ex7(int day) {
+    if(day == 1) {
+        return 0.01;
+    }
 
-    return 0;
+    return 2*sec7ex7(day-1);
 }
