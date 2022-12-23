@@ -15,16 +15,19 @@
 #include "./C++ Course/Assignments/Assignment1.cpp"
 #include "./C++ Course/Section7/Section7.h"
 #include "./C++ Course/Section7/Exercises.cpp"
+#include "./C++ Course/Section8/Section8.h"
+#include "./C++ Course/Section8/Exercises.cpp"
 using namespace std;
 
 int main() {
-    string guest1 = "A";
-    string guest2 = "B";
-    string guest3 = "C";
 
-    sec7ex6print(guest1, guest2, guest3);
-    sec7ex6clear(guest1, guest2, guest3);
-    sec7ex6print(guest1, guest2, guest3);
+    int array1[] = {1, 2, 3};
+    int array2[] = {4, 5, 6};
+    int* array3 = sec8challenge(array1, array2, 3, 3);
+
+    for(int i = 0; i < 3 * 3; i++) {
+        cout << array3[i] << endl;
+    }
 
     return 0;
 }
