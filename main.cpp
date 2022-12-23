@@ -13,9 +13,18 @@
 #include "./C++ Course/Section6/Exercises.cpp"
 #include "./C++ Course/Assignments/Assignment1.h"
 #include "./C++ Course/Assignments/Assignment1.cpp"
+#include "./C++ Course/Section7/Section7.h"
+#include "./C++ Course/Section7/Exercises.cpp"
 using namespace std;
 
 int main() {
-    makePyramid("123456789");
+    string guest1 = "A";
+    string guest2 = "B";
+    string guest3 = "C";
+
+    sec7ex6print(guest1, guest2, guest3);
+    sec7ex6clear(guest1, guest2, guest3);
+    sec7ex6print(guest1, guest2, guest3);
+
     return 0;
 }
