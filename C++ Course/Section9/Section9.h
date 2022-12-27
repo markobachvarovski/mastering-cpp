@@ -7,20 +7,45 @@ using namespace std;
 class Dog {
     string name;
     int age;
+    string* owner;
 
 public:
 //    Using constructor initialization list
-    Dog() : name{"None"}, age{0}{
+    Dog() : name{"None"}, age{0} {
+        owner = new string;
+        *owner = "None";
     }
 
+//    Constructor
     Dog(string name = "None", int age = 0) {
         this->name = name;
         this->age = age;
+
+        owner = new string;
+        *owner = "None";
     }
 
+//    Copy constructor
     Dog(Dog &source) {
         this->name = source.name;
         this->age = source.age;
+
+        this->owner = new string;
+//        Shallow copy, commented out by default
+//        this->owner = source.owner;
+
+//        Deep copy
+        *this->owner = *source.owner;
+
+    }
+
+//    Move constructor
+    Dog(Dog &&source) {
+        this->name = source.name;
+        this->age = source.age;
+
+        this->owner = source.owner;
+        source.owner = nullptr;
     }
 
     string get_name() {return name; }
@@ -34,7 +59,6 @@ public:
     }
     string speak() { return "Woof"; }
 
-    const string &getName() const;
 };
 
 static int sec9ex1();
