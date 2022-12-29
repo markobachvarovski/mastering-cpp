@@ -10,4 +10,4 @@ add_executable(Personal main.cpp
         "C++ Course/Section4/Section4.h" "C++ Course/Section4/Exercises.cpp"
         "C++ Course/Section5/Section5.h" "C++ Course/Section5/Exercises.cpp"
         "C++ Course/Section6/Section6.h" "C++ Course/Section6/Exercises.cpp"
-        "C++ Course/Assignments/Assignment1.cpp" "C++ Course/Assignments/Assignment1.h")
+        "C++ Course/Assignments/Assignment1.cpp" "C++ Course/Assignments/Assignment1.h" "C++ Course/Section9/Movies.h")

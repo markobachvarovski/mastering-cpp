@@ -62,6 +62,6 @@ public:
 };
 
 static int sec9ex1();
-static int* sec9challenge();
+static int sec9challenge();
 
 #endif

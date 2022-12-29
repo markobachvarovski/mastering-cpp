@@ -19,14 +19,12 @@
 #include "./C++ Course/Section8/Exercises.cpp"
 #include "./C++ Course/Section9/Section9.h"
 #include "./C++ Course/Section9/Exercises.cpp"
-
-void fc(int x);
-
+#include "./C++ Course/Section9/Movies.h"
 using namespace std;
 
 int main() {
 
-    sec9ex1();
+    sec9challenge();
 
     return 0;
 }
