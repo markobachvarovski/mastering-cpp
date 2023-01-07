@@ -27,6 +27,14 @@ public:
         return !(*this == rhs);
     }
 
+    friend Money operator+(const Money &lhs, const Money &rhs);
+
 };
+
+//    Exercise 2 - Implement overloaded + operator
+Money operator+(const Money &lhs, const Money &rhs) {
+    int total = (lhs.dollars + rhs.dollars) * 100 + lhs.cents + rhs.cents;
+    return Money(total);
+}
 
 #endif
