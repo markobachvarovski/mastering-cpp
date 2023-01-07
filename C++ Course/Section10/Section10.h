@@ -29,12 +29,19 @@ public:
 
     friend Money operator+(const Money &lhs, const Money &rhs);
 
+    friend ostream &operator<<(ostream &out, const Money &amount);
 };
 
 //    Exercise 2 - Implement overloaded + operator
 Money operator+(const Money &lhs, const Money &rhs) {
     int total = (lhs.dollars + rhs.dollars) * 100 + lhs.cents + rhs.cents;
     return Money(total);
+}
+
+//    Exercise 3
+ostream &operator<<(ostream &out, const Money &amount) {
+    out << "dollars: " << amount.dollars << " cents: " << amount.cents;
+    return out;
 }
 
 #endif
